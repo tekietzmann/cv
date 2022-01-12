@@ -1,0 +1,74 @@
+/*Body styling*/
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pro{
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*Parent containers*/
+
+    .top-container{
+        position: relative;
+        background-color: #E4F9F5;
+        margin-top: 0px;
+        padding-top: 120px;
+        padding-bottom: 150px;
+    }
+
+    .mountain{
+                position: relative;
+                top: 100px;
+            }
+
+    .top-cloud{
+                position: absolute;
+                right: 620px;
+                top: 20px;
+                }
+    
+    .bottom-cloud{
+                position: absolute;
+                left: 650px;
+                top: 200px;
+                }
+                
+
+    .middle-container{
+        position: relative;
+    }
+
+    .bottom-container{
+        background-color: #E4F9F5;
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    .backend-list{
+        position: relative;
+        list-style-type: none;
+        right: 10px;
+    }
